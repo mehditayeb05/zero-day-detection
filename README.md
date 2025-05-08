@@ -6,22 +6,24 @@
 
 Un système de détection d'anomalies réseau utilisant l'Isolation Forest pour identifier des comportements malveillants inconnus (zero-day).
 
-## Structure 
+## 📂 Structure des Fichiers
+```plaintext
 zero-day-detection/
-├── data/               # Données générées
+├── data/                   # Données générées
 │   ├── detections.csv
 │   └── normal_traffic.csv
-├── models/             # Modèles entraînés
+├── models/                 # Modèles entraînés
 │   └── zero_day_model.pkl
-├── src/                # Code source
-│   ├── app.py
-│   ├── capture.py
-│   ├── detect.py
-│   ├── features.py
-│   ├── generate_detections.py
-│   ├── generate_normal_data.py
-│   └── train.py
-└──  requirements.txt    # Dépendances
+|                   # Code source
+│   app.py
+│   capture.py
+│   detect.py
+│   features.py
+│   generate_detections.py
+│   generate_normal_data.py
+│   train.py
+└── requirements.txt        # Dépendances
+```
 
 ## 📦 Fonctionnalités clés
 - **Capture temps réel** : Analyse des paquets réseau via Scapy
