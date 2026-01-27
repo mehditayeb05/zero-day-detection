@@ -1,4 +1,4 @@
-# 🛡️ Zero-Day Network Threat Detection System
+# Zero-Day Network Threat Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Scapy](https://img.shields.io/badge/Scapy-2.5.0-orange)
@@ -6,7 +6,7 @@
 
 A network anomaly detection system using Isolation Forest to identify unknown (zero-day) malicious behaviors.
 
-## 📂 File Structure
+## File Structure
 ```text
 zero-day-detection/
 ├── data/                   
@@ -23,7 +23,7 @@ zero-day-detection/
 │   train.py
 └── requirements.txt      
 ```
-## 📦 Key Features
+## Key Features
 - Real-time capture: Network packet analysis using Scapy
 - Advanced detection:
 - - Feature extraction (entropy, TTL, TCP flags)
@@ -31,7 +31,7 @@ zero-day-detection/
 - Visualization: Interactive dashboard using Streamlit
 - - Data generation: Tools to create test datasets
 
-## 🚀 Technical Architecture
+## Technical Architecture
 ```text
 data_flow = [
     "capture.py → Packet Sniffer",
